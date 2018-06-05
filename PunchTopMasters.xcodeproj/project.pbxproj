@@ -4548,10 +4548,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PunchTopMasters/Pods-PunchTopMasters-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${PODS_ROOT}/Hyphenate/ios_IM_Hyphenate_sdk_3.3.7/HyphenateFullSDK/Hyphenate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hyphenate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

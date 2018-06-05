@@ -14,13 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Hyphenate (3.3.7)
 
 DEPENDENCIES:
   - AFNetworking
+  - Hyphenate
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Hyphenate: 81e9566bf45e2c8a4a24a7750c9eeab25ad7497b
 
-PODFILE CHECKSUM: 8f3d9944d15355cc65ab4231985d5d284632226d
+PODFILE CHECKSUM: 7edf29821c56a2cb6f5b02aa499acb57ef0938f9
 
 COCOAPODS: 1.4.0
