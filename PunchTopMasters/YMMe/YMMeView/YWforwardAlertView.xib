@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YWforwardAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="251"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYd-tp-rC7">
+                    <rect key="frame" x="0.0" y="0.0" width="351" height="251"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alertview_bg" translatesAutoresizingMaskIntoConstraints="NO" id="FAD-2T-wlF">
+                            <rect key="frame" x="0.0" y="0.0" width="351" height="251"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6t-18-45L">
+                            <rect key="frame" x="316" y="5" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="gKe-AK-hPU"/>
+                                <constraint firstAttribute="height" constant="30" id="yx0-Uc-tRP"/>
+                            </constraints>
+                            <state key="normal" image="alertview_close"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赏金正飞往你的帐户，请注意查收！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbE-5m-6D0">
+                            <rect key="frame" x="0.0" y="132" width="351" height="20"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                            <color key="textColor" red="0.25490196079999999" green="0.2784313725" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pocket money_alert_icon" translatesAutoresizingMaskIntoConstraints="NO" id="W9z-jC-e95">
+                            <rect key="frame" x="142" y="20" width="66" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="66" id="eas-3G-7H1"/>
+                                <constraint firstAttribute="width" constant="66" id="qo4-oJ-ox5"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="33"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUY-s4-r6t">
+                            <rect key="frame" x="20" y="191" width="311" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="0o6-84-iPb"/>
+                            </constraints>
+                            <state key="normal" title="确认提现">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200.00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTP-PY-ULY">
+                            <rect key="frame" x="0.0" y="96" width="351" height="31"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="22"/>
+                            <color key="textColor" red="0.25490196079999999" green="0.2784313725" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="h6t-18-45L" secondAttribute="trailing" constant="5" id="4H1-8S-HFi"/>
+                        <constraint firstAttribute="trailing" secondItem="iUY-s4-r6t" secondAttribute="trailing" constant="20" id="4Za-zv-A1e"/>
+                        <constraint firstItem="zTP-PY-ULY" firstAttribute="leading" secondItem="tYd-tp-rC7" secondAttribute="leading" id="4Zw-VQ-0Y3"/>
+                        <constraint firstAttribute="trailing" secondItem="lbE-5m-6D0" secondAttribute="trailing" id="7Je-58-7C3"/>
+                        <constraint firstItem="lbE-5m-6D0" firstAttribute="leading" secondItem="tYd-tp-rC7" secondAttribute="leading" id="8n2-lZ-ck5"/>
+                        <constraint firstItem="h6t-18-45L" firstAttribute="top" secondItem="tYd-tp-rC7" secondAttribute="top" constant="5" id="91z-eC-UHf"/>
+                        <constraint firstItem="FAD-2T-wlF" firstAttribute="leading" secondItem="tYd-tp-rC7" secondAttribute="leading" id="Ep6-rd-i9f"/>
+                        <constraint firstItem="zTP-PY-ULY" firstAttribute="top" secondItem="W9z-jC-e95" secondAttribute="bottom" constant="10" id="JKH-z9-Up0"/>
+                        <constraint firstAttribute="bottom" secondItem="FAD-2T-wlF" secondAttribute="bottom" id="OFW-d6-Uq1"/>
+                        <constraint firstItem="W9z-jC-e95" firstAttribute="centerX" secondItem="FAD-2T-wlF" secondAttribute="centerX" id="YRr-Xl-5pq"/>
+                        <constraint firstAttribute="trailing" secondItem="FAD-2T-wlF" secondAttribute="trailing" id="mW4-8p-AfH"/>
+                        <constraint firstAttribute="bottom" secondItem="iUY-s4-r6t" secondAttribute="bottom" constant="20" id="ocj-Bk-p48"/>
+                        <constraint firstItem="lbE-5m-6D0" firstAttribute="top" secondItem="zTP-PY-ULY" secondAttribute="bottom" constant="5" id="pdY-aa-Ncz"/>
+                        <constraint firstItem="iUY-s4-r6t" firstAttribute="leading" secondItem="tYd-tp-rC7" secondAttribute="leading" constant="20" id="rqc-f3-r5j"/>
+                        <constraint firstItem="W9z-jC-e95" firstAttribute="top" secondItem="tYd-tp-rC7" secondAttribute="top" constant="20" id="sTI-K6-AJU"/>
+                        <constraint firstAttribute="trailing" secondItem="zTP-PY-ULY" secondAttribute="trailing" id="udF-MA-Bt8"/>
+                        <constraint firstItem="FAD-2T-wlF" firstAttribute="top" secondItem="tYd-tp-rC7" secondAttribute="top" id="v2y-Xr-19W"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="tYd-tp-rC7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="2h4-Ci-ggY"/>
+                <constraint firstItem="tYd-tp-rC7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="PdY-ZI-eRi"/>
+                <constraint firstAttribute="trailing" secondItem="tYd-tp-rC7" secondAttribute="trailing" id="fNN-is-d0J"/>
+                <constraint firstAttribute="bottom" secondItem="tYd-tp-rC7" secondAttribute="bottom" id="jnp-zs-6GZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="closeBt" destination="h6t-18-45L" id="cAA-en-9aK"/>
+                <outlet property="messageLb" destination="zTP-PY-ULY" id="RbK-mq-e08"/>
+                <outlet property="subMessageLb" destination="lbE-5m-6D0" id="ekS-Px-yy2"/>
+                <outlet property="sureBt" destination="iUY-s4-r6t" id="odi-NC-1nm"/>
+            </connections>
+            <point key="canvasLocation" x="22" y="-37"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alertview_bg" width="349" height="262"/>
+        <image name="alertview_close" width="16" height="16"/>
+        <image name="pocket money_alert_icon" width="66" height="66"/>
+    </resources>
+</document>

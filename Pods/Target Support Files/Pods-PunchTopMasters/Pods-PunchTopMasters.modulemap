@@ -1,0 +1,6 @@
+framework module Pods_PunchTopMasters {
+  umbrella header "Pods-PunchTopMasters-umbrella.h"
+
+  export *
+  module * { export * }
+}

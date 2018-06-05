@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SAModifyNicknameViewController">
+            <connections>
+                <outlet property="commitBt" destination="oie-Ch-DUJ" id="zvW-hi-aFl"/>
+                <outlet property="lyout" destination="lS1-3P-ogF" id="gag-1m-knB"/>
+                <outlet property="nametextFile" destination="8Dw-U8-KAh" id="dco-Do-NV2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="427"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="快给自己起个响亮的名字吧～" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="8Dw-U8-KAh">
+                    <rect key="frame" x="14" y="64" width="308" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="vXu-aA-eyX"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2-12个字，可由中英文、数字、符号组成" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wec-m9-dVo">
+                    <rect key="frame" x="14" y="119" width="308" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oie-Ch-DUJ">
+                    <rect key="frame" x="14" y="144" width="308" height="44"/>
+                    <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="3GS-Aa-v7F"/>
+                    </constraints>
+                    <state key="normal" title="提交">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wec-m9-dVo" firstAttribute="top" secondItem="8Dw-U8-KAh" secondAttribute="bottom" constant="10" id="5DA-3F-oCL"/>
+                <constraint firstAttribute="trailing" secondItem="8Dw-U8-KAh" secondAttribute="trailing" constant="14" id="K2B-kx-ZMb"/>
+                <constraint firstItem="Wec-m9-dVo" firstAttribute="leading" secondItem="8Dw-U8-KAh" secondAttribute="leading" id="MWs-pd-40j"/>
+                <constraint firstItem="oie-Ch-DUJ" firstAttribute="leading" secondItem="8Dw-U8-KAh" secondAttribute="leading" id="Qdn-Pq-Lzx"/>
+                <constraint firstItem="oie-Ch-DUJ" firstAttribute="trailing" secondItem="8Dw-U8-KAh" secondAttribute="trailing" id="Ucv-f4-R8V"/>
+                <constraint firstItem="Wec-m9-dVo" firstAttribute="trailing" secondItem="8Dw-U8-KAh" secondAttribute="trailing" id="YEj-Je-In2"/>
+                <constraint firstItem="8Dw-U8-KAh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="lS1-3P-ogF"/>
+                <constraint firstItem="oie-Ch-DUJ" firstAttribute="top" secondItem="Wec-m9-dVo" secondAttribute="bottom" constant="10" id="wKg-dh-bfc"/>
+                <constraint firstItem="8Dw-U8-KAh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="14" id="xGt-UK-u06"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="14" y="174.5"/>
+        </view>
+    </objects>
+</document>

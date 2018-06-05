@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YWEnterGameFirstStepViewAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="431" height="371"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VUl-Zo-tXW">
+                    <rect key="frame" x="0.0" y="0.0" width="431" height="371"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alertview_bg" translatesAutoresizingMaskIntoConstraints="NO" id="tKn-sz-bFt">
+                            <rect key="frame" x="0.0" y="0.0" width="431" height="371"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehl-Rm-Ozh">
+                            <rect key="frame" x="396" y="5" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="7vc-BE-MDS"/>
+                                <constraint firstAttribute="width" constant="30" id="cMK-Dc-T1W"/>
+                            </constraints>
+                            <state key="normal" image="alertview_close"/>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSS-Va-iRQ">
+                            <rect key="frame" x="40" y="30" width="351" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一步" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiE-2Y-aDD">
+                                    <rect key="frame" x="151.5" y="3.5" width="48" height="23"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                                    <color key="textColor" red="0.25490196079999999" green="0.2784313725" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="yiE-2Y-aDD" firstAttribute="centerX" secondItem="tSS-Va-iRQ" secondAttribute="centerX" id="MGL-XI-0vt"/>
+                                <constraint firstItem="yiE-2Y-aDD" firstAttribute="centerY" secondItem="tSS-Va-iRQ" secondAttribute="centerY" id="mNj-Sj-aqI"/>
+                                <constraint firstAttribute="height" constant="30" id="ugl-Ae-g7U"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QQ_shre" translatesAutoresizingMaskIntoConstraints="NO" id="KHF-SU-djN">
+                            <rect key="frame" x="20" y="70" width="391" height="170"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="170" id="Uh3-5w-TTz"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEa-Bj-rqo">
+                            <rect key="frame" x="20" y="313" width="391" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.62352941176470589" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="tdi-Gx-QhR"/>
+                            </constraints>
+                            <state key="normal" title="下一步">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在王者荣耀中，将游戏邀请链接发送至" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knC-WP-KzX">
+                            <rect key="frame" x="0.0" y="255" width="431" height="20"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                            <color key="textColor" red="0.25490196078431371" green="0.27843137254901962" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服QQ好友" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ga-rd-Vg0">
+                            <rect key="frame" x="0.0" y="280" width="431" height="20"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                            <color key="textColor" red="0.25490196079999999" green="0.2784313725" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="6Ga-rd-Vg0" firstAttribute="top" secondItem="knC-WP-KzX" secondAttribute="bottom" constant="5" id="8QQ-Gs-fc7"/>
+                        <constraint firstItem="6Ga-rd-Vg0" firstAttribute="leading" secondItem="VUl-Zo-tXW" secondAttribute="leading" id="9RQ-zL-Y7M"/>
+                        <constraint firstItem="knC-WP-KzX" firstAttribute="top" secondItem="KHF-SU-djN" secondAttribute="bottom" constant="15" id="BVD-Yy-2i8"/>
+                        <constraint firstAttribute="bottom" secondItem="tKn-sz-bFt" secondAttribute="bottom" id="HIe-hK-gs1"/>
+                        <constraint firstItem="KHF-SU-djN" firstAttribute="leading" secondItem="VUl-Zo-tXW" secondAttribute="leading" constant="20" id="Ie0-xC-PuE"/>
+                        <constraint firstAttribute="trailing" secondItem="knC-WP-KzX" secondAttribute="trailing" id="L5J-fx-IZI"/>
+                        <constraint firstAttribute="trailing" secondItem="tKn-sz-bFt" secondAttribute="trailing" id="QGI-lP-W1f"/>
+                        <constraint firstItem="knC-WP-KzX" firstAttribute="centerX" secondItem="KHF-SU-djN" secondAttribute="centerX" id="RCe-lV-iGJ"/>
+                        <constraint firstItem="tKn-sz-bFt" firstAttribute="top" secondItem="VUl-Zo-tXW" secondAttribute="top" id="RQu-Qs-EsQ"/>
+                        <constraint firstAttribute="trailing" secondItem="6Ga-rd-Vg0" secondAttribute="trailing" id="Ti0-NI-gmE"/>
+                        <constraint firstAttribute="trailing" secondItem="KHF-SU-djN" secondAttribute="trailing" constant="20" id="VuM-Rs-W5B"/>
+                        <constraint firstAttribute="trailing" secondItem="tSS-Va-iRQ" secondAttribute="trailing" constant="40" id="XOG-Vr-Yiy"/>
+                        <constraint firstItem="Ehl-Rm-Ozh" firstAttribute="top" secondItem="VUl-Zo-tXW" secondAttribute="top" constant="5" id="XQL-Sm-lAD"/>
+                        <constraint firstItem="tSS-Va-iRQ" firstAttribute="top" secondItem="Ehl-Rm-Ozh" secondAttribute="bottom" constant="-5" id="Yss-SO-hjL"/>
+                        <constraint firstAttribute="trailing" secondItem="Ehl-Rm-Ozh" secondAttribute="trailing" constant="5" id="ZYG-Js-gxx"/>
+                        <constraint firstAttribute="trailing" secondItem="FEa-Bj-rqo" secondAttribute="trailing" constant="20" id="gtA-yl-vFE"/>
+                        <constraint firstItem="tKn-sz-bFt" firstAttribute="leading" secondItem="VUl-Zo-tXW" secondAttribute="leading" id="ly4-9u-wUT"/>
+                        <constraint firstItem="KHF-SU-djN" firstAttribute="top" secondItem="tSS-Va-iRQ" secondAttribute="bottom" constant="10" id="n1i-KZ-fcF"/>
+                        <constraint firstItem="FEa-Bj-rqo" firstAttribute="leading" secondItem="VUl-Zo-tXW" secondAttribute="leading" constant="20" id="ngH-nP-NxE"/>
+                        <constraint firstItem="knC-WP-KzX" firstAttribute="leading" secondItem="VUl-Zo-tXW" secondAttribute="leading" id="nlE-Ye-Pt7"/>
+                        <constraint firstItem="tSS-Va-iRQ" firstAttribute="leading" secondItem="VUl-Zo-tXW" secondAttribute="leading" constant="40" id="u2m-jg-mZe"/>
+                        <constraint firstAttribute="bottom" secondItem="FEa-Bj-rqo" secondAttribute="bottom" constant="18" id="yPc-lj-bNa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VUl-Zo-tXW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GQJ-JY-uvi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VUl-Zo-tXW" secondAttribute="trailing" id="ezR-JQ-s5v"/>
+                <constraint firstItem="VUl-Zo-tXW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="fH6-2v-9Qt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="VUl-Zo-tXW" secondAttribute="bottom" id="fls-02-zHn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="closeBt" destination="Ehl-Rm-Ozh" id="vcF-d4-Adb"/>
+                <outlet property="nextStepBt" destination="FEa-Bj-rqo" id="fXF-dr-bJo"/>
+            </connections>
+            <point key="canvasLocation" x="72.5" y="13.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="QQ_shre" width="309" height="170"/>
+        <image name="alertview_bg" width="349" height="262"/>
+        <image name="alertview_close" width="16" height="16"/>
+    </resources>
+</document>
