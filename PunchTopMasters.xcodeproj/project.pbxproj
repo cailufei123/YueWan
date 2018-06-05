@@ -44,21 +44,21 @@
 		AD06FA8120A4365F00D7F733 /* YWRoomCountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD06FA7F20A4365F00D7F733 /* YWRoomCountTableViewCell.xib */; };
 		AD06FA8520A539CD00D7F733 /* YWProblemFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA8320A539CC00D7F733 /* YWProblemFeedbackViewController.m */; };
 		AD06FA8620A539CD00D7F733 /* YWProblemFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD06FA8420A539CC00D7F733 /* YWProblemFeedbackViewController.xib */; };
-		AD06FA9E20A56F9400D7F733 /* UIColor+MJCClassExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA8B20A56F9200D7F733 /* UIColor+MJCClassExtension.m */; };
-		AD06FA9F20A56F9400D7F733 /* MJCCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9020A56F9200D7F733 /* MJCCommonTools.m */; };
-		AD06FAA020A56F9400D7F733 /* UIButton+MJCClassExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9120A56F9200D7F733 /* UIButton+MJCClassExtension.m */; };
-		AD06FAA120A56F9400D7F733 /* UIView+MJCClassExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9220A56F9200D7F733 /* UIView+MJCClassExtension.m */; };
-		AD06FAA220A56F9400D7F733 /* MJCIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9520A56F9200D7F733 /* MJCIndicatorView.m */; };
-		AD06FAA320A56F9400D7F733 /* MJCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9620A56F9200D7F733 /* MJCTabItem.m */; };
-		AD06FAA420A56F9400D7F733 /* MJCTitlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9A20A56F9200D7F733 /* MJCTitlesView.m */; };
-		AD06FAA520A56F9400D7F733 /* MJCChildMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9B20A56F9200D7F733 /* MJCChildMainView.m */; };
-		AD06FAA620A56F9400D7F733 /* MJCSegmentInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9C20A56F9200D7F733 /* MJCSegmentInterface.m */; };
-		AD06FAA720A56F9400D7F733 /* MJCSegmentStylesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FA9D20A56F9200D7F733 /* MJCSegmentStylesTools.m */; };
 		AD06FAAA20A5720500D7F733 /* YWFollowFansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FAA920A5720500D7F733 /* YWFollowFansViewController.m */; };
 		AD06FAB620A57DAA00D7F733 /* YWFollowFansDateilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FAB520A57DAA00D7F733 /* YWFollowFansDateilsViewController.m */; };
 		AD06FABA20A5814500D7F733 /* YWFollowFansTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FAB820A5814500D7F733 /* YWFollowFansTableViewCell.m */; };
 		AD06FABB20A5814500D7F733 /* YWFollowFansTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD06FAB920A5814500D7F733 /* YWFollowFansTableViewCell.xib */; };
 		AD06FABE20A5848900D7F733 /* YWFanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06FABD20A5848900D7F733 /* YWFanModel.m */; };
+		AD11502820C641710074B454 /* UIColor+MJCClassExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11501520C641710074B454 /* UIColor+MJCClassExtension.m */; };
+		AD11502920C641710074B454 /* MJCCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11501A20C641710074B454 /* MJCCommonTools.m */; };
+		AD11502A20C641710074B454 /* UIButton+MJCClassExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11501B20C641710074B454 /* UIButton+MJCClassExtension.m */; };
+		AD11502B20C641710074B454 /* UIView+MJCClassExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11501C20C641710074B454 /* UIView+MJCClassExtension.m */; };
+		AD11502C20C641710074B454 /* MJCIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11501F20C641710074B454 /* MJCIndicatorView.m */; };
+		AD11502D20C641710074B454 /* MJCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11502020C641710074B454 /* MJCTabItem.m */; };
+		AD11502E20C641710074B454 /* MJCTitlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11502420C641710074B454 /* MJCTitlesView.m */; };
+		AD11502F20C641710074B454 /* MJCChildMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11502520C641710074B454 /* MJCChildMainView.m */; };
+		AD11503020C641710074B454 /* MJCSegmentInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11502620C641710074B454 /* MJCSegmentInterface.m */; };
+		AD11503120C641710074B454 /* MJCSegmentStylesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD11502720C641710074B454 /* MJCSegmentStylesTools.m */; };
 		AD13D5C6205F5BC500F8B4D8 /* YWForgetPrassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13D5C4205F5BC500F8B4D8 /* YWForgetPrassWordViewController.m */; };
 		AD13D5C7205F5BC500F8B4D8 /* YWForgetPrassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD13D5C5205F5BC500F8B4D8 /* YWForgetPrassWordViewController.xib */; };
 		AD13D5CB205F642900F8B4D8 /* YWBindingPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13D5C9205F642900F8B4D8 /* YWBindingPhoneViewController.m */; };
@@ -541,13 +541,6 @@
 		ADA8DC0E20ABE03B00400085 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8DC0120ABE03A00400085 /* libSocialQQ.a */; };
 		ADA8DC1220AC241900400085 /* YWVoucherAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1020AC241900400085 /* YWVoucherAlertViewCell.m */; };
 		ADA8DC1320AC241900400085 /* YWVoucherAlertViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA8DC1120AC241900400085 /* YWVoucherAlertViewCell.xib */; };
-		ADA8DC2420AD32A900400085 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1820AD32A900400085 /* SDCycleScrollView.m */; };
-		ADA8DC2520AD32AA00400085 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1920AD32A900400085 /* UIView+SDExtension.m */; };
-		ADA8DC2620AD32AA00400085 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1A20AD32A900400085 /* SDCollectionViewCell.m */; };
-		ADA8DC2720AD32AA00400085 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1D20AD32A900400085 /* TADotView.m */; };
-		ADA8DC2820AD32AA00400085 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1E20AD32A900400085 /* TAPageControl.m */; };
-		ADA8DC2920AD32AA00400085 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC1F20AD32A900400085 /* TAAnimatedDotView.m */; };
-		ADA8DC2A20AD32AA00400085 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC2020AD32A900400085 /* TAAbstractDotView.m */; };
 		ADA8DC2F20AD5E7600400085 /* SAMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC2D20AD5E7500400085 /* SAMessageViewController.m */; };
 		ADA8DC3020AD5E7600400085 /* SAMessageContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC2E20AD5E7600400085 /* SAMessageContentController.m */; };
 		ADA8DC3720AD5E8900400085 /* ATMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DC3120AD5E8400400085 /* ATMessageCell.m */; };
@@ -718,26 +711,6 @@
 		AD06FA8220A539CC00D7F733 /* YWProblemFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWProblemFeedbackViewController.h; sourceTree = "<group>"; };
 		AD06FA8320A539CC00D7F733 /* YWProblemFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWProblemFeedbackViewController.m; sourceTree = "<group>"; };
 		AD06FA8420A539CC00D7F733 /* YWProblemFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YWProblemFeedbackViewController.xib; sourceTree = "<group>"; };
-		AD06FA8820A56F9200D7F733 /* MJCSegmentInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCSegmentInterface.h; sourceTree = "<group>"; };
-		AD06FA8920A56F9200D7F733 /* MJCSegmentStylesTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCSegmentStylesTools.h; sourceTree = "<group>"; };
-		AD06FA8B20A56F9200D7F733 /* UIColor+MJCClassExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MJCClassExtension.m"; sourceTree = "<group>"; };
-		AD06FA8C20A56F9200D7F733 /* MJCCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCCommonTools.h; sourceTree = "<group>"; };
-		AD06FA8D20A56F9200D7F733 /* UIView+MJCClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJCClassExtension.h"; sourceTree = "<group>"; };
-		AD06FA8E20A56F9200D7F733 /* UIButton+MJCClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MJCClassExtension.h"; sourceTree = "<group>"; };
-		AD06FA8F20A56F9200D7F733 /* UIColor+MJCClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MJCClassExtension.h"; sourceTree = "<group>"; };
-		AD06FA9020A56F9200D7F733 /* MJCCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCCommonTools.m; sourceTree = "<group>"; };
-		AD06FA9120A56F9200D7F733 /* UIButton+MJCClassExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MJCClassExtension.m"; sourceTree = "<group>"; };
-		AD06FA9220A56F9200D7F733 /* UIView+MJCClassExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJCClassExtension.m"; sourceTree = "<group>"; };
-		AD06FA9420A56F9200D7F733 /* MJCTitlesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTitlesView.h; sourceTree = "<group>"; };
-		AD06FA9520A56F9200D7F733 /* MJCIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCIndicatorView.m; sourceTree = "<group>"; };
-		AD06FA9620A56F9200D7F733 /* MJCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTabItem.m; sourceTree = "<group>"; };
-		AD06FA9720A56F9200D7F733 /* MJCChildMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCChildMainView.h; sourceTree = "<group>"; };
-		AD06FA9820A56F9200D7F733 /* MJCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTabItem.h; sourceTree = "<group>"; };
-		AD06FA9920A56F9200D7F733 /* MJCIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCIndicatorView.h; sourceTree = "<group>"; };
-		AD06FA9A20A56F9200D7F733 /* MJCTitlesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTitlesView.m; sourceTree = "<group>"; };
-		AD06FA9B20A56F9200D7F733 /* MJCChildMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCChildMainView.m; sourceTree = "<group>"; };
-		AD06FA9C20A56F9200D7F733 /* MJCSegmentInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCSegmentInterface.m; sourceTree = "<group>"; };
-		AD06FA9D20A56F9200D7F733 /* MJCSegmentStylesTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCSegmentStylesTools.m; sourceTree = "<group>"; };
 		AD06FAA820A5720500D7F733 /* YWFollowFansViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWFollowFansViewController.h; sourceTree = "<group>"; };
 		AD06FAA920A5720500D7F733 /* YWFollowFansViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWFollowFansViewController.m; sourceTree = "<group>"; };
 		AD06FAB420A57DAA00D7F733 /* YWFollowFansDateilsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWFollowFansDateilsViewController.h; sourceTree = "<group>"; };
@@ -748,6 +721,26 @@
 		AD06FABC20A5848900D7F733 /* YWFanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWFanModel.h; sourceTree = "<group>"; };
 		AD06FABD20A5848900D7F733 /* YWFanModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWFanModel.m; sourceTree = "<group>"; };
 		AD0E674CF9C7ED37B4FEF96D /* Pods_PunchTopMasters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunchTopMasters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD11501220C641710074B454 /* MJCSegmentInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCSegmentInterface.h; sourceTree = "<group>"; };
+		AD11501320C641710074B454 /* MJCSegmentStylesTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCSegmentStylesTools.h; sourceTree = "<group>"; };
+		AD11501520C641710074B454 /* UIColor+MJCClassExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MJCClassExtension.m"; sourceTree = "<group>"; };
+		AD11501620C641710074B454 /* MJCCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCCommonTools.h; sourceTree = "<group>"; };
+		AD11501720C641710074B454 /* UIView+MJCClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJCClassExtension.h"; sourceTree = "<group>"; };
+		AD11501820C641710074B454 /* UIButton+MJCClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MJCClassExtension.h"; sourceTree = "<group>"; };
+		AD11501920C641710074B454 /* UIColor+MJCClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MJCClassExtension.h"; sourceTree = "<group>"; };
+		AD11501A20C641710074B454 /* MJCCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCCommonTools.m; sourceTree = "<group>"; };
+		AD11501B20C641710074B454 /* UIButton+MJCClassExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MJCClassExtension.m"; sourceTree = "<group>"; };
+		AD11501C20C641710074B454 /* UIView+MJCClassExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJCClassExtension.m"; sourceTree = "<group>"; };
+		AD11501E20C641710074B454 /* MJCTitlesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTitlesView.h; sourceTree = "<group>"; };
+		AD11501F20C641710074B454 /* MJCIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCIndicatorView.m; sourceTree = "<group>"; };
+		AD11502020C641710074B454 /* MJCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTabItem.m; sourceTree = "<group>"; };
+		AD11502120C641710074B454 /* MJCChildMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCChildMainView.h; sourceTree = "<group>"; };
+		AD11502220C641710074B454 /* MJCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTabItem.h; sourceTree = "<group>"; };
+		AD11502320C641710074B454 /* MJCIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCIndicatorView.h; sourceTree = "<group>"; };
+		AD11502420C641710074B454 /* MJCTitlesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTitlesView.m; sourceTree = "<group>"; };
+		AD11502520C641710074B454 /* MJCChildMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCChildMainView.m; sourceTree = "<group>"; };
+		AD11502620C641710074B454 /* MJCSegmentInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCSegmentInterface.m; sourceTree = "<group>"; };
+		AD11502720C641710074B454 /* MJCSegmentStylesTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCSegmentStylesTools.m; sourceTree = "<group>"; };
 		AD13D5C3205F5BC500F8B4D8 /* YWForgetPrassWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWForgetPrassWordViewController.h; sourceTree = "<group>"; };
 		AD13D5C4205F5BC500F8B4D8 /* YWForgetPrassWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWForgetPrassWordViewController.m; sourceTree = "<group>"; };
 		AD13D5C5205F5BC500F8B4D8 /* YWForgetPrassWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YWForgetPrassWordViewController.xib; sourceTree = "<group>"; };
@@ -1573,20 +1566,6 @@
 		ADA8DC0F20AC241900400085 /* YWVoucherAlertViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWVoucherAlertViewCell.h; sourceTree = "<group>"; };
 		ADA8DC1020AC241900400085 /* YWVoucherAlertViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWVoucherAlertViewCell.m; sourceTree = "<group>"; };
 		ADA8DC1120AC241900400085 /* YWVoucherAlertViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YWVoucherAlertViewCell.xib; sourceTree = "<group>"; };
-		ADA8DC1520AD32A900400085 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
-		ADA8DC1620AD32A900400085 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
-		ADA8DC1720AD32A900400085 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
-		ADA8DC1820AD32A900400085 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
-		ADA8DC1920AD32A900400085 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
-		ADA8DC1A20AD32A900400085 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
-		ADA8DC1C20AD32A900400085 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
-		ADA8DC1D20AD32A900400085 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
-		ADA8DC1E20AD32A900400085 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
-		ADA8DC1F20AD32A900400085 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
-		ADA8DC2020AD32A900400085 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
-		ADA8DC2120AD32A900400085 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
-		ADA8DC2220AD32A900400085 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
-		ADA8DC2320AD32A900400085 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		ADA8DC2B20AD5E7300400085 /* SAMessageContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMessageContentController.h; sourceTree = "<group>"; };
 		ADA8DC2C20AD5E7400400085 /* SAMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMessageViewController.h; sourceTree = "<group>"; };
 		ADA8DC2D20AD5E7500400085 /* SAMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMessageViewController.m; sourceTree = "<group>"; };
@@ -1865,45 +1844,60 @@
 			path = YWUserZoneModel;
 			sourceTree = "<group>";
 		};
-		AD06FA8720A56F9200D7F733 /* MJCSlideInterface */ = {
+		AD11500F20C640BC0074B454 /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				AD06FA8820A56F9200D7F733 /* MJCSegmentInterface.h */,
-				AD06FA8920A56F9200D7F733 /* MJCSegmentStylesTools.h */,
-				AD06FA8A20A56F9200D7F733 /* common */,
-				AD06FA9320A56F9200D7F733 /* childs */,
-				AD06FA9C20A56F9200D7F733 /* MJCSegmentInterface.m */,
-				AD06FA9D20A56F9200D7F733 /* MJCSegmentStylesTools.m */,
+				AD11501020C640BC0074B454 /* PageControl */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		AD11501020C640BC0074B454 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		AD11501120C641710074B454 /* MJCSlideInterface */ = {
+			isa = PBXGroup;
+			children = (
+				AD11501220C641710074B454 /* MJCSegmentInterface.h */,
+				AD11501320C641710074B454 /* MJCSegmentStylesTools.h */,
+				AD11501420C641710074B454 /* common */,
+				AD11501D20C641710074B454 /* childs */,
+				AD11502620C641710074B454 /* MJCSegmentInterface.m */,
+				AD11502720C641710074B454 /* MJCSegmentStylesTools.m */,
 			);
 			path = MJCSlideInterface;
 			sourceTree = "<group>";
 		};
-		AD06FA8A20A56F9200D7F733 /* common */ = {
+		AD11501420C641710074B454 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				AD06FA8B20A56F9200D7F733 /* UIColor+MJCClassExtension.m */,
-				AD06FA8C20A56F9200D7F733 /* MJCCommonTools.h */,
-				AD06FA8D20A56F9200D7F733 /* UIView+MJCClassExtension.h */,
-				AD06FA8E20A56F9200D7F733 /* UIButton+MJCClassExtension.h */,
-				AD06FA8F20A56F9200D7F733 /* UIColor+MJCClassExtension.h */,
-				AD06FA9020A56F9200D7F733 /* MJCCommonTools.m */,
-				AD06FA9120A56F9200D7F733 /* UIButton+MJCClassExtension.m */,
-				AD06FA9220A56F9200D7F733 /* UIView+MJCClassExtension.m */,
+				AD11501520C641710074B454 /* UIColor+MJCClassExtension.m */,
+				AD11501620C641710074B454 /* MJCCommonTools.h */,
+				AD11501720C641710074B454 /* UIView+MJCClassExtension.h */,
+				AD11501820C641710074B454 /* UIButton+MJCClassExtension.h */,
+				AD11501920C641710074B454 /* UIColor+MJCClassExtension.h */,
+				AD11501A20C641710074B454 /* MJCCommonTools.m */,
+				AD11501B20C641710074B454 /* UIButton+MJCClassExtension.m */,
+				AD11501C20C641710074B454 /* UIView+MJCClassExtension.m */,
 			);
 			path = common;
 			sourceTree = "<group>";
 		};
-		AD06FA9320A56F9200D7F733 /* childs */ = {
+		AD11501D20C641710074B454 /* childs */ = {
 			isa = PBXGroup;
 			children = (
-				AD06FA9420A56F9200D7F733 /* MJCTitlesView.h */,
-				AD06FA9520A56F9200D7F733 /* MJCIndicatorView.m */,
-				AD06FA9620A56F9200D7F733 /* MJCTabItem.m */,
-				AD06FA9720A56F9200D7F733 /* MJCChildMainView.h */,
-				AD06FA9820A56F9200D7F733 /* MJCTabItem.h */,
-				AD06FA9920A56F9200D7F733 /* MJCIndicatorView.h */,
-				AD06FA9A20A56F9200D7F733 /* MJCTitlesView.m */,
-				AD06FA9B20A56F9200D7F733 /* MJCChildMainView.m */,
+				AD11501E20C641710074B454 /* MJCTitlesView.h */,
+				AD11501F20C641710074B454 /* MJCIndicatorView.m */,
+				AD11502020C641710074B454 /* MJCTabItem.m */,
+				AD11502120C641710074B454 /* MJCChildMainView.h */,
+				AD11502220C641710074B454 /* MJCTabItem.h */,
+				AD11502320C641710074B454 /* MJCIndicatorView.h */,
+				AD11502420C641710074B454 /* MJCTitlesView.m */,
+				AD11502520C641710074B454 /* MJCChildMainView.m */,
 			);
 			path = childs;
 			sourceTree = "<group>";
@@ -1950,44 +1944,12 @@
 			path = YMCreateRoomModel;
 			sourceTree = "<group>";
 		};
-		AD13D5D62061FA4D00F8B4D8 /* YMChatroom */ = {
-			isa = PBXGroup;
-			children = (
-				AD13D5D92061FA4D00F8B4D8 /* YMChatroomController */,
-				AD13D5D82061FA4D00F8B4D8 /* YMChatroomView */,
-				AD13D5D72061FA4D00F8B4D8 /* YMChatroomModel */,
-			);
-			path = YMChatroom;
-			sourceTree = "<group>";
-		};
-		AD13D5D72061FA4D00F8B4D8 /* YMChatroomModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YMChatroomModel;
-			sourceTree = "<group>";
-		};
-		AD13D5D82061FA4D00F8B4D8 /* YMChatroomView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YMChatroomView;
-			sourceTree = "<group>";
-		};
-		AD13D5D92061FA4D00F8B4D8 /* YMChatroomController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YMChatroomController;
-			sourceTree = "<group>";
-		};
 		AD13D5E420638E1100F8B4D8 /* PublicView */ = {
 			isa = PBXGroup;
 			children = (
 				ADE3F98B2091C93A00D8F5E9 /* GKCover */,
 				AD13D60020638E1100F8B4D8 /* ZJScrollPageView */,
 				AD13D5F320638E1100F8B4D8 /* CCZTrotingView */,
-				AD13D5F220638E1100F8B4D8 /* SGPageView */,
 				AD13D5EE20638E1100F8B4D8 /* MJCSlideInterface */,
 				AD13D5E520638E1100F8B4D8 /* LFNavHeadTitleView.h */,
 				AD13D5E620638E1100F8B4D8 /* ATBagValueView.h */,
@@ -2032,13 +1994,6 @@
 			children = (
 			);
 			path = childs;
-			sourceTree = "<group>";
-		};
-		AD13D5F220638E1100F8B4D8 /* SGPageView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SGPageView;
 			sourceTree = "<group>";
 		};
 		AD13D5F320638E1100F8B4D8 /* CCZTrotingView */ = {
@@ -2366,7 +2321,6 @@
 				ADEBB4DE209954A10023C954 /* YWPay */,
 				AD63E14920721B070050E38A /* YWSearch */,
 				AD13D64A2068DB3D00F8B4D8 /* YMHome */,
-				AD13D5D62061FA4D00F8B4D8 /* YMChatroom */,
 				AD13D5D22061F9F800F8B4D8 /* YMCreateRoom */,
 				ADB0968E205A48F900D866AC /* YMRoom */,
 				ADB09687205A484100D866AC /* YMMe */,
@@ -3110,15 +3064,14 @@
 		AD2C2B4A2052784700306A06 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				AD11501120C641710074B454 /* MJCSlideInterface */,
+				AD11500F20C640BC0074B454 /* SDCycleScrollView */,
 				AD1B757A20AED1C700CD54D7 /* KSGuaidView */,
-				ADA8DC1420AD32A900400085 /* SDCycleScrollView */,
-				AD06FA8720A56F9200D7F733 /* MJCSlideInterface */,
 				ADBC1F1E20909C36007AFFA4 /* textView自定义 */,
 				AD7CC62E20898E7B000184AC /* JXTAlertManager */,
 				ADB0966D205A196200D866AC /* 自定义导航栏 */,
 				AD2C2B622052784700306A06 /* TZImagePickerController */,
 				AD2C2B512052784700306A06 /* OYCountDownManager */,
-				AD2C2B5B2052784700306A06 /* PYPhotoBrowser */,
 				AD2C2B4B2052784700306A06 /* DWImagePicker */,
 				AD2C2B862052784700306A06 /* NHNetworkHelper.h */,
 				AD2C2B542052784700306A06 /* NHNetworkHelper.m */,
@@ -3160,53 +3113,6 @@
 				AD2C2B532052784700306A06 /* OYCountDownManager.h */,
 			);
 			path = OYCountDownManager;
-			sourceTree = "<group>";
-		};
-		AD2C2B5B2052784700306A06 /* PYPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				AD2C2B5C2052784700306A06 /* Category */,
-				AD2C2B5D2052784700306A06 /* Other */,
-				AD2C2B5E2052784700306A06 /* Controller */,
-				AD2C2B5F2052784700306A06 /* Model */,
-				AD2C2B602052784700306A06 /* View */,
-			);
-			path = PYPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		AD2C2B5C2052784700306A06 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		AD2C2B5D2052784700306A06 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		AD2C2B5E2052784700306A06 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		AD2C2B5F2052784700306A06 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AD2C2B602052784700306A06 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		AD2C2B622052784700306A06 /* TZImagePickerController */ = {
@@ -3400,7 +3306,6 @@
 			children = (
 				AD2C2C73205283AA00306A06 /* YMLoginController */,
 				AD2C2C74205283AA00306A06 /* YMLoginModel */,
-				AD2C2C75205283AA00306A06 /* YMLoginView */,
 			);
 			path = YMLogin;
 			sourceTree = "<group>";
@@ -3437,13 +3342,6 @@
 				AD2C2C77205283C900306A06 /* SALoginModel.m */,
 			);
 			path = YMLoginModel;
-			sourceTree = "<group>";
-		};
-		AD2C2C75205283AA00306A06 /* YMLoginView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YMLoginView;
 			sourceTree = "<group>";
 		};
 		AD2C2C812054228200306A06 /* YMResoures */ = {
@@ -3927,36 +3825,6 @@
 			path = QQ;
 			sourceTree = "<group>";
 		};
-		ADA8DC1420AD32A900400085 /* SDCycleScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				ADA8DC1520AD32A900400085 /* UIView+SDExtension.h */,
-				ADA8DC1620AD32A900400085 /* SDCycleScrollView.h */,
-				ADA8DC1720AD32A900400085 /* SDCollectionViewCell.h */,
-				ADA8DC1820AD32A900400085 /* SDCycleScrollView.m */,
-				ADA8DC1920AD32A900400085 /* UIView+SDExtension.m */,
-				ADA8DC1A20AD32A900400085 /* SDCollectionViewCell.m */,
-				ADA8DC1B20AD32A900400085 /* PageControl */,
-			);
-			name = SDCycleScrollView;
-			path = "../../../../../Downloads/SDCycleScrollView-master/SDCycleScrollView/Lib/SDCycleScrollView";
-			sourceTree = "<group>";
-		};
-		ADA8DC1B20AD32A900400085 /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-				ADA8DC1C20AD32A900400085 /* TAAbstractDotView.h */,
-				ADA8DC1D20AD32A900400085 /* TADotView.m */,
-				ADA8DC1E20AD32A900400085 /* TAPageControl.m */,
-				ADA8DC1F20AD32A900400085 /* TAAnimatedDotView.m */,
-				ADA8DC2020AD32A900400085 /* TAAbstractDotView.m */,
-				ADA8DC2120AD32A900400085 /* TADotView.h */,
-				ADA8DC2220AD32A900400085 /* TAAnimatedDotView.h */,
-				ADA8DC2320AD32A900400085 /* TAPageControl.h */,
-			);
-			path = PageControl;
-			sourceTree = "<group>";
-		};
 		ADB0966D205A196200D866AC /* 自定义导航栏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3990,8 +3858,6 @@
 			isa = PBXGroup;
 			children = (
 				ADB0967F205A46A800D866AC /* YMPblishController */,
-				ADB09680205A46A800D866AC /* YMPblishModel */,
-				ADB09681205A46A800D866AC /* YMPblishView */,
 			);
 			path = YMPblish;
 			sourceTree = "<group>";
@@ -4004,20 +3870,6 @@
 				ADB09684205A46D100D866AC /* YWPublishViewController.xib */,
 			);
 			path = YMPblishController;
-			sourceTree = "<group>";
-		};
-		ADB09680205A46A800D866AC /* YMPblishModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YMPblishModel;
-			sourceTree = "<group>";
-		};
-		ADB09681205A46A800D866AC /* YMPblishView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YMPblishView;
 			sourceTree = "<group>";
 		};
 		ADB09687205A484100D866AC /* YMMe */ = {
@@ -4238,7 +4090,6 @@
 			children = (
 				ADEBB510209AB77F0023C954 /* YWCouponController */,
 				ADEBB50F209AB77F0023C954 /* YWCouponView */,
-				ADEBB511209AB77F0023C954 /* YWCouponModel */,
 			);
 			path = YWCoupon;
 			sourceTree = "<group>";
@@ -4263,13 +4114,6 @@
 				ADEBB513209ABDEF0023C954 /* YWCouponController.m */,
 			);
 			path = YWCouponController;
-			sourceTree = "<group>";
-		};
-		ADEBB511209AB77F0023C954 /* YWCouponModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YWCouponModel;
 			sourceTree = "<group>";
 		};
 		ADEBB51F209BF5DC0023C954 /* YWPlayRecord */ = {
@@ -4724,7 +4568,6 @@
 				AD2C2A802052699B00306A06 /* EMCDDeviceManager+ProximitySensor.m in Sources */,
 				AD06FA8020A4365F00D7F733 /* YWRoomCountTableViewCell.m in Sources */,
 				AD2C2C4D20527CBB00306A06 /* UIView+WebCache.m in Sources */,
-				AD06FAA620A56F9400D7F733 /* MJCSegmentInterface.m in Sources */,
 				AD2C2B412052763800306A06 /* NSDateFormatter+Category.m in Sources */,
 				AD2C2A962052699B00306A06 /* PSTGridLayoutSection.m in Sources */,
 				AD2C2C4220527CBB00306A06 /* NSButton+WebCache.m in Sources */,
@@ -4735,7 +4578,6 @@
 				AD2C2BCA2052784700306A06 /* SVGloble.m in Sources */,
 				AD2C2BC22052784700306A06 /* ImagePicker.m in Sources */,
 				AD1E7762206B45E600044B5E /* NSObject+MJClass.m in Sources */,
-				ADA8DC2820AD32AA00400085 /* TAPageControl.m in Sources */,
 				AD1E777D206CC3F400044B5E /* YWFastEnterAlertView.m in Sources */,
 				AD2C2AB52052699B00306A06 /* EaseUserCell.m in Sources */,
 				AD2C2C3820527CBB00306A06 /* UIImage+ForceDecode.m in Sources */,
@@ -4753,6 +4595,7 @@
 				AD2C2C4020527CBB00306A06 /* SDWebImagePrefetcher.m in Sources */,
 				AD2C2C4320527CBB00306A06 /* SDAnimatedImageRep.m in Sources */,
 				AD7CC63620898E7B000184AC /* JXTAlertController.m in Sources */,
+				AD11502A20C641710074B454 /* UIButton+MJCClassExtension.m in Sources */,
 				AD2C2AC82052699B00306A06 /* EaseBubbleView+Voice.m in Sources */,
 				AD13D62620638E1200F8B4D8 /* ZJScrollPageView.m in Sources */,
 				AD1B758320AED1C800CD54D7 /* KSGuaidViewCell.m in Sources */,
@@ -4782,7 +4625,6 @@
 				AD1E7761206B45E600044B5E /* NSObject+MJProperty.m in Sources */,
 				AD2C2A9F2052699B00306A06 /* EMSDWebImagePrefetcher.m in Sources */,
 				AD2C2A8E2052699B00306A06 /* DACircularProgressView.m in Sources */,
-				AD06FAA420A56F9400D7F733 /* MJCTitlesView.m in Sources */,
 				AD2C2A902052699B00306A06 /* PSTCollectionViewFlowLayout.m in Sources */,
 				ADBC1EFF209065A4007AFFA4 /* YWSBRoomMasterAlertView.m in Sources */,
 				AD2C2A9E2052699B00306A06 /* UIButton+EMWebCache.m in Sources */,
@@ -4793,7 +4635,6 @@
 				AD2C2C4520527CBB00306A06 /* SDWebImageDownloaderOperation.m in Sources */,
 				AD2C2C4820527CBB00306A06 /* UIImageView+WebCache.m in Sources */,
 				AD2C2C3920527CBB00306A06 /* SDWebImageCodersManager.m in Sources */,
-				AD06FAA220A56F9400D7F733 /* MJCIndicatorView.m in Sources */,
 				AD2C2C5D205281C500306A06 /* SAMessageModel.m in Sources */,
 				AD2C2BC32052784700306A06 /* HWWeakTimer.m in Sources */,
 				AD2C2B3B2052763800306A06 /* NSArray+decription.m in Sources */,
@@ -4801,14 +4642,12 @@
 				AD1E775E206B45E600044B5E /* MJProperty.m in Sources */,
 				AD13D61D20638E1200F8B4D8 /* ATBagValueView.m in Sources */,
 				AD2C2C5620527CFB00306A06 /* FLAnimatedImage.m in Sources */,
-				ADA8DC2620AD32AA00400085 /* SDCollectionViewCell.m in Sources */,
 				AD2C2A912052699B00306A06 /* PSTCollectionViewCell.m in Sources */,
 				AD6B8AEA209321F8006CA783 /* YWMeTopView.m in Sources */,
 				AD2C2C6D2052820E00306A06 /* FMDatabasePool.m in Sources */,
 				ADA8DC3720AD5E8900400085 /* ATMessageCell.m in Sources */,
 				AD2C2A662052699A00306A06 /* EaseUserModel.m in Sources */,
 				AD2C2A952052699B00306A06 /* PSTCollectionViewUpdateItem.m in Sources */,
-				AD06FAA020A56F9400D7F733 /* UIButton+MJCClassExtension.m in Sources */,
 				AD2C2AA12052699B00306A06 /* UIView+EMWebCacheOperation.m in Sources */,
 				AD13D6512068DB9A00F8B4D8 /* YWHomeViewController.m in Sources */,
 				AD2C2A5D2052699A00306A06 /* EaseMessageReadManager.m in Sources */,
@@ -4825,6 +4664,7 @@
 				AD13D61B20638E1200F8B4D8 /* CCZTrotingView.m in Sources */,
 				ADEBB4D5209341F30023C954 /* YWMeItemGroups.m in Sources */,
 				AD2C2BD92052784700306A06 /* TZGifPhotoPreviewController.m in Sources */,
+				AD11503020C641710074B454 /* MJCSegmentInterface.m in Sources */,
 				AD63E160207230320050E38A /* UIScrollView+EmptyDataSet.m in Sources */,
 				AD2C2B3C2052763800306A06 /* UIColor+WHColor.m in Sources */,
 				AD2C2A812052699B00306A06 /* EMCDDeviceManager+Media.m in Sources */,
@@ -4840,7 +4680,6 @@
 				AD2C2BD72052784700306A06 /* TZImagePickerController.m in Sources */,
 				AD2C2B312052763800306A06 /* UIView+CLFExtension.m in Sources */,
 				AD2C2AA42052699B00306A06 /* UIImageView+EMWebCache.m in Sources */,
-				AD06FAA520A56F9400D7F733 /* MJCChildMainView.m in Sources */,
 				AD13D62020638E1200F8B4D8 /* ZJTitleView.m in Sources */,
 				AD2C2BCD2052784700306A06 /* TZVideoPlayerController.m in Sources */,
 				AD13D6572069E3D500F8B4D8 /* YWCreteBtView.m in Sources */,
@@ -4849,27 +4688,26 @@
 				AD2C2A5B2052699A00306A06 /* NSDateFormatter+Category.m in Sources */,
 				AD2C2A762052699A00306A06 /* MJRefreshHeader.m in Sources */,
 				ADEBB5072099CC160023C954 /* SAWetChatWebViewController.m in Sources */,
-				ADA8DC2420AD32A900400085 /* SDCycleScrollView.m in Sources */,
 				AD2C2AC62052699B00306A06 /* EaseBubbleView.m in Sources */,
 				AD3C6443208DDD2600485586 /* YWEnterGameFirstStepViewAlertView.m in Sources */,
+				AD11502C20C641710074B454 /* MJCIndicatorView.m in Sources */,
 				AD2C2AA22052699B00306A06 /* EMSDImageCache.m in Sources */,
 				AD2C2B392052763800306A06 /* NSArray+WHArray.m in Sources */,
 				AD2C2A6A2052699A00306A06 /* UIScrollView+MJExtension.m in Sources */,
 				ADEBB514209ABDEF0023C954 /* YWCouponController.m in Sources */,
 				ADEBB4F7209995170023C954 /* YWCouponTableViewCell.m in Sources */,
-				AD06FAA120A56F9400D7F733 /* UIView+MJCClassExtension.m in Sources */,
 				AD1E7764206B45E600044B5E /* MJPropertyKey.m in Sources */,
 				AD13D61F20638E1200F8B4D8 /* UIView+ZJFrame.m in Sources */,
-				AD06FAA320A56F9400D7F733 /* MJCTabItem.m in Sources */,
 				AD2C2BC52052784700306A06 /* OYCountDownManager.m in Sources */,
 				AD2C2A6E2052699A00306A06 /* MJRefreshBackNormalFooter.m in Sources */,
 				ADEBB4EE209994CA0023C954 /* YWCouponViewController.m in Sources */,
 				AD2C2BD32052784700306A06 /* TZProgressView.m in Sources */,
 				AD2C2A6D2052699A00306A06 /* MJRefreshBackStateFooter.m in Sources */,
+				AD11502920C641710074B454 /* MJCCommonTools.m in Sources */,
 				AD1E7760206B45E600044B5E /* MJExtensionConst.m in Sources */,
+				AD11502820C641710074B454 /* UIColor+MJCClassExtension.m in Sources */,
 				AD13D62320638E1200F8B4D8 /* ZJCollectionView.m in Sources */,
 				AD06FA5920A2DE2100D7F733 /* ATBalanceRecordTopView.m in Sources */,
-				AD06FA9E20A56F9400D7F733 /* UIColor+MJCClassExtension.m in Sources */,
 				AD2C2AC12052699B00306A06 /* EaseRecordView.m in Sources */,
 				AD2C2BD62052784700306A06 /* TZPhotoPreviewCell.m in Sources */,
 				AD2C2B2D2052763800306A06 /* NSString+WHString.m in Sources */,
@@ -4898,12 +4736,11 @@
 				AD1E777A206C9ADD00044B5E /* YWSelectButton.m in Sources */,
 				AD2C2B452052763800306A06 /* NSTimer+WHTimer.m in Sources */,
 				AD06FA6620A2E9AB00D7F733 /* YWTXViewController.m in Sources */,
-				ADA8DC2A20AD32AA00400085 /* TAAbstractDotView.m in Sources */,
 				ADBC1F2520909C48007AFFA4 /* TYLimitedTextField.m in Sources */,
 				AD63E15820722BEC0050E38A /* YWSearchCell.m in Sources */,
 				ADBC1F18209087F4007AFFA4 /* YWPlayGameRecordModel.m in Sources */,
+				AD11502E20C641710074B454 /* MJCTitlesView.m in Sources */,
 				AD2C2AC22052699B00306A06 /* EaseChatToolbarItem.m in Sources */,
-				AD06FAA720A56F9400D7F733 /* MJCSegmentStylesTools.m in Sources */,
 				AD1E775C206B45E600044B5E /* MJPropertyType.m in Sources */,
 				AD13D61820638E1200F8B4D8 /* NavHeadTitleView.m in Sources */,
 				AD1A83F1208060B000CA2E49 /* YWRoomChatModel.m in Sources */,
@@ -4912,7 +4749,6 @@
 				AD2C2A9B2052699B00306A06 /* PSTGridLayoutItem.m in Sources */,
 				AD2C2C3E20527CBB00306A06 /* SDWebImageCoderHelper.m in Sources */,
 				AD2C2AB02052699B00306A06 /* EaseConversationListViewController.m in Sources */,
-				ADA8DC2720AD32AA00400085 /* TADotView.m in Sources */,
 				AD13D61720638E1200F8B4D8 /* MCButton.m in Sources */,
 				AD1E7782206CE47E00044B5E /* YWSelectModel.m in Sources */,
 				AD06FA5520A2DE0800D7F733 /* ATPresentCionsViewController.m in Sources */,
@@ -4964,22 +4800,26 @@
 				AD2C2C3420527CBB00306A06 /* MKAnnotationView+WebCache.m in Sources */,
 				AD13D6482068A82D00F8B4D8 /* YMRoomViewController.m in Sources */,
 				AD2C275F2052570700306A06 /* main.m in Sources */,
+				AD11502B20C641710074B454 /* UIView+MJCClassExtension.m in Sources */,
 				AD2C2AA72052699B00306A06 /* UIImage+EMGIF.m in Sources */,
 				AD2C2C3720527CBB00306A06 /* SDWebImageFrame.m in Sources */,
 				AD2C2C4A20527CBB00306A06 /* SDWebImageGIFCoder.m in Sources */,
 				ADEBB4D8209342380023C954 /* YWMeTitleItem.m in Sources */,
 				AD06FA6A20A2FD6900D7F733 /* YWforwardAlertView.m in Sources */,
+				AD11502F20C641710074B454 /* MJCChildMainView.m in Sources */,
 				AD2C2C3A20527CBB00306A06 /* FLAnimatedImageView+WebCache.m in Sources */,
 				AD2C2B462052763800306A06 /* UIViewController+WHVC.m in Sources */,
 				AD1E77B4206E32C900044B5E /* IQUIView+Hierarchy.m in Sources */,
 				AD2C2BD52052784700306A06 /* TZPhotoPickerController.m in Sources */,
 				AD63E166207233EE0050E38A /* SARefreshAutoGifFooter.m in Sources */,
+				AD11502D20C641710074B454 /* MJCTabItem.m in Sources */,
 				AD1E776B206B7E9B00044B5E /* ATHomeFavButton.m in Sources */,
 				AD2C2A6F2052699A00306A06 /* MJRefreshAutoStateFooter.m in Sources */,
 				AD1B758120AED1C800CD54D7 /* KSGuaidViewManager.m in Sources */,
 				AD2C2AE7205273AF00306A06 /* SATabBarController.m in Sources */,
 				AD7CC63A2089BF70000184AC /* YWSetModel.m in Sources */,
 				AD13D5E120638ADD00F8B4D8 /* YWSelectlevelAlertView.m in Sources */,
+				AD11503120C641710074B454 /* MJCSegmentStylesTools.m in Sources */,
 				AD06FA3E20A199DE00D7F733 /* YWUserZoneTopView.m in Sources */,
 				AD2C2B2C2052763800306A06 /* NSDate+Category.m in Sources */,
 				AD2C2A842052699B00306A06 /* EMAudioPlayerUtil.m in Sources */,
@@ -5039,13 +4879,10 @@
 				ADC3ACA520844CF500983DA6 /* LFConst.m in Sources */,
 				ADC3ACF52087348E00983DA6 /* YWRoomMeCheckMeView.m in Sources */,
 				AD2C2BD82052784700306A06 /* TZLocationManager.m in Sources */,
-				AD06FA9F20A56F9400D7F733 /* MJCCommonTools.m in Sources */,
 				AD1E77AD206E32C900044B5E /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				AD2C2B432052763800306A06 /* UIBarButtonItem+LFExtension.m in Sources */,
-				ADA8DC2920AD32AA00400085 /* TAAnimatedDotView.m in Sources */,
 				AD2C2AB22052699B00306A06 /* EaseRefreshTableViewController.m in Sources */,
 				AD2C2A872052699B00306A06 /* MWCaptionView.m in Sources */,
-				ADA8DC2520AD32AA00400085 /* UIView+SDExtension.m in Sources */,
 				AD2C2AE6205273AF00306A06 /* SALoginRegistNavController.m in Sources */,
 				AD2C2B3E2052763800306A06 /* UITableView+WHTableView.m in Sources */,
 				AD2C2AAB2052699B00306A06 /* UIImageView+EMHighlightedWebCache.m in Sources */,
