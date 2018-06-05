@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 811194C1621FE49FEE595F82976A6E85 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04A88EC420C6800A00B80F2B /* Hyphenate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A88EC320C6800A00B80F2B /* Hyphenate.framework */; };
+		049C9D2C20C6927B002B03B5 /* Hyphenate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C9D2B20C6927B002B03B5 /* Hyphenate.framework */; };
 		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B1688F2067953D6E40AF7A3261FBD436 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A6510938842636C4FBA6F9F32095CDF8 /* UIActivityIndicatorView+AFNetworking.m */; };
 		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F7307498A1490778A03504DA027998 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,7 +67,7 @@
 		00E9B05FDC593725553FC0E7FA850AE0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		0189F4AE3ADB0BD6CBBFEEA6BAFDD757 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		01AB6DEF238D4F0E4878AE3B0431B8C5 /* Pods-PunchTopMasters-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PunchTopMasters-dummy.m"; sourceTree = "<group>"; };
-		04A88EC320C6800A00B80F2B /* Hyphenate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Hyphenate.framework; sourceTree = "<group>"; };
+		049C9D2B20C6927B002B03B5 /* Hyphenate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Hyphenate.framework; sourceTree = "<group>"; };
 		08A78B0B48893DB7757085F6925FC8E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E992B1839E46AB52F7C983D638E0CEC /* Pods-PunchTopMasters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PunchTopMasters.debug.xcconfig"; sourceTree = "<group>"; };
 		0FFBBF60C0B4504F420277FD33E18414 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDA1828B35A33A61F974A2FF97F4478E /* Foundation.framework in Frameworks */,
-				04A88EC420C6800A00B80F2B /* Hyphenate.framework in Frameworks */,
+				049C9D2C20C6927B002B03B5 /* Hyphenate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,26 +157,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		04A88EC020C6800A00B80F2B /* Hyphenate */ = {
+		049C9D2820C6927B002B03B5 /* Hyphenate */ = {
 			isa = PBXGroup;
 			children = (
-				04A88EC120C6800A00B80F2B /* ios_IM_Hyphenate_sdk_3.3.7 */,
+				049C9D2920C6927B002B03B5 /* ios_IM_Hyphenate_sdk_3.3.7 */,
 			);
 			path = Hyphenate;
 			sourceTree = "<group>";
 		};
-		04A88EC120C6800A00B80F2B /* ios_IM_Hyphenate_sdk_3.3.7 */ = {
+		049C9D2920C6927B002B03B5 /* ios_IM_Hyphenate_sdk_3.3.7 */ = {
 			isa = PBXGroup;
 			children = (
-				04A88EC220C6800A00B80F2B /* HyphenateFullSDK */,
+				049C9D2A20C6927B002B03B5 /* HyphenateFullSDK */,
 			);
 			path = ios_IM_Hyphenate_sdk_3.3.7;
 			sourceTree = "<group>";
 		};
-		04A88EC220C6800A00B80F2B /* HyphenateFullSDK */ = {
+		049C9D2A20C6927B002B03B5 /* HyphenateFullSDK */ = {
 			isa = PBXGroup;
 			children = (
-				04A88EC320C6800A00B80F2B /* Hyphenate.framework */,
+				049C9D2B20C6927B002B03B5 /* Hyphenate.framework */,
 			);
 			path = HyphenateFullSDK;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 		C6B7A28B3266DC96E458CAABDB4ED5D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04A88EC020C6800A00B80F2B /* Hyphenate */,
+				049C9D2820C6927B002B03B5 /* Hyphenate */,
 				751738185AD3C84F51E73026F2F9CCF8 /* AFNetworking */,
 			);
 			name = Pods;
