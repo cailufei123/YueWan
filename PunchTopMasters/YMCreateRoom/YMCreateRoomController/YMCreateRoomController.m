@@ -580,7 +580,7 @@ _createPriceBgView.pirceStr = ^(NSString * str) {// 房间费用 当AA制此值�
     }else if (self.typesBt.selected == NO){
         [MBManager showBriefAlert:@"请选择房间类型"]; return;
     }else if (!self.roomMoney.length){
-        [MBManager showBriefAlert:@"请选择房间费用"]; return;
+//        [MBManager showBriefAlert:@"请选择房间费用"]; return;
     }else  if (self.typesBt == self.sbBt) {
         if (self.selectXSBt.selected == NO){
             [MBManager showBriefAlert:@"请选择悬赏模式"]; return;
@@ -594,7 +594,8 @@ _createPriceBgView.pirceStr = ^(NSString * str) {// 房间费用 当AA制此值�
     dict[@"roomSlogan"] =self.titleTf.text.length>0?self.titleTf.text:@"上分队，来不坑的队友";  // 房间口号
     dict[@"gameArea"] = self.gameArea;// 游戏大区 1 QQ 2 微信
     dict[@"roomType"] =  self.roomType;// 房间类型 1、AA制 2、撒币 3、 悬赏
-    dict[@"roomMoney"] = self.roomMoney; // 房间费用 当AA制此值为房间费 撒币和悬赏为房主出价金额
+//    dict[@"roomMoney"] = self.roomMoney; // 房间费用 当AA制此值为房间费 撒币和悬赏为房主出价金额
+     dict[@"roomMoney"] = @"0"; // 房间费用 当AA制此值为房间费 撒币和悬赏为房主出价金额
     dict[@"segment"]  =  self.segment; // 房主的段位；
     dict[@"productType"]  =  @"1"; // 房主的段位；
     dict[@"segMatch"]  =  self.segMatch;// 段位匹配要求，逗号分隔；
